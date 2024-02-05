@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build",
+  "command": "/home/gadzz/miniforge3/envs/opencv/bin/c++    -o CMakeFiles/Main.dir/main.cpp.o -c \"/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/main.cpp\"",
+  "file": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/main.cpp",
+  "output": "CMakeFiles/Main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build",
+  "command": "/home/gadzz/miniforge3/envs/opencv/bin/c++    -o CMakeFiles/Main.dir/Balok.cpp.o -c \"/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Balok.cpp\"",
+  "file": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Balok.cpp",
+  "output": "CMakeFiles/Main.dir/Balok.cpp.o"
+},
+{
+  "directory": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build",
+  "command": "/home/gadzz/miniforge3/envs/opencv/bin/c++    -o CMakeFiles/Main.dir/Kubus.cpp.o -c \"/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Kubus.cpp\"",
+  "file": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Kubus.cpp",
+  "output": "CMakeFiles/Main.dir/Kubus.cpp.o"
+},
+{
+  "directory": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build",
+  "command": "/home/gadzz/miniforge3/envs/opencv/bin/c++    -o CMakeFiles/Main.dir/Silinder.cpp.o -c \"/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Silinder.cpp\"",
+  "file": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/Silinder.cpp",
+  "output": "CMakeFiles/Main.dir/Silinder.cpp.o"
+},
+{
+  "directory": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build",
+  "command": "/home/gadzz/miniforge3/envs/opencv/bin/c++    -o CMakeFiles/Main.dir/BangunRuang.cpp.o -c \"/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/BangunRuang.cpp\"",
+  "file": "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/BangunRuang.cpp",
+  "output": "CMakeFiles/Main.dir/BangunRuang.cpp.o"
+}
+]

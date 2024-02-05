@@ -1,0 +1,1 @@
+/home/gadzz/miniforge3/envs/opencv/bin/c++ -rdynamic CMakeFiles/Main.dir/main.cpp.o CMakeFiles/Main.dir/Balok.cpp.o CMakeFiles/Main.dir/Kubus.cpp.o CMakeFiles/Main.dir/Silinder.cpp.o CMakeFiles/Main.dir/BangunRuang.cpp.o -o Main 

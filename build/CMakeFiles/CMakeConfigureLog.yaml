@@ -1,0 +1,527 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.7.1-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/gadzz/miniforge3/envs/opencv/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/gadzz/miniforge3/envs/opencv/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU"
+      binary: "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a498e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a498e.dir/build.make CMakeFiles/cmTC_a498e.dir/build
+        make[1]: Entering directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU'
+        Building C object CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o
+        /home/gadzz/miniforge3/envs/opencv/bin/cc   -v -o CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (conda-forge gcc 13.2.0-3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/'
+         /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/cc1 -quiet -v -iprefix /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/ -isysroot /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a498e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cct9lnAl.s
+        GNU C17 (conda-forge gcc 13.2.0-3) version 13.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include"
+        ignoring nonexistent directory "/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed"
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: dc74de9d99ea37b2a72b6780d78365ae
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/'
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o /tmp/cct9lnAl.s
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a498e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a498e.dir/link.txt --verbose=1
+        /home/gadzz/miniforge3/envs/opencv/bin/cc  -v -rdynamic CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -o cmTC_a498e 
+        Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/cc
+        COLLECT_LTO_WRAPPER=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (conda-forge gcc 13.2.0-3) 
+        COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a498e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a498e.'
+         /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2 -plugin /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0Q5jk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a498e /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0 -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../.. -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/gadzz/miniforge3/envs/opencv/lib
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a498e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a498e.'
+        make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a498e/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_a498e.dir/build.make CMakeFiles/cmTC_a498e.dir/build]
+        ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-WLBrcU']
+        ignore line: [Building C object CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/gadzz/miniforge3/envs/opencv/bin/cc   -v -o CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (conda-forge gcc 13.2.0-3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/']
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/cc1 -quiet -v -iprefix /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/ -isysroot /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a498e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cct9lnAl.s]
+        ignore line: [GNU C17 (conda-forge gcc 13.2.0-3) version 13.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: dc74de9d99ea37b2a72b6780d78365ae]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/']
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o /tmp/cct9lnAl.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a498e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a498e.dir/link.txt --verbose=1]
+        ignore line: [/home/gadzz/miniforge3/envs/opencv/bin/cc  -v -rdynamic CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -o cmTC_a498e ]
+        ignore line: [Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (conda-forge gcc 13.2.0-3) ]
+        ignore line: [COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a498e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a498e.']
+        link line: [ /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2 -plugin /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0Q5jk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a498e /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0 -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../.. -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/gadzz/miniforge3/envs/opencv/lib]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccM0Q5jk.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a498e] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_a498e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/lib] ==> ignore
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib] ==> [/home/gadzz/miniforge3/envs/opencv/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..] ==> [/home/gadzz/miniforge3/envs/opencv/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0;/home/gadzz/miniforge3/envs/opencv/lib/gcc;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib;/home/gadzz/miniforge3/envs/opencv/lib;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA"
+      binary: "/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e05a4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e05a4.dir/build.make CMakeFiles/cmTC_e05a4.dir/build
+        make[1]: Entering directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA'
+        Building CXX object CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o
+        /home/gadzz/miniforge3/envs/opencv/bin/c++   -v -o CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (conda-forge gcc 13.2.0-3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/'
+         /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/cc1plus -quiet -v -iprefix /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/ -isysroot /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e05a4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYzXLGR.s
+        GNU C++17 (conda-forge gcc 13.2.0-3) version 13.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include"
+        ignoring nonexistent directory "/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed"
+        ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/backward
+         /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 9e8d153b1db6fb7333af5312053e2531
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/'
+         /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYzXLGR.s
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e05a4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e05a4.dir/link.txt --verbose=1
+        /home/gadzz/miniforge3/envs/opencv/bin/c++  -v -rdynamic CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e05a4 
+        Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/c++
+        COLLECT_LTO_WRAPPER=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.0 (conda-forge gcc 13.2.0-3) 
+        COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e05a4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e05a4.'
+         /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2 -plugin /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH7AAxw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e05a4 /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0 -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../.. -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/gadzz/miniforge3/envs/opencv/lib
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e05a4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e05a4.'
+        make[1]: Leaving directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/backward]
+          add: [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/backward] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0/backward]
+        collapse include dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/include/c++/13.2.0/backward;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e05a4/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e05a4.dir/build.make CMakeFiles/cmTC_e05a4.dir/build]
+        ignore line: [make[1]: Entering directory '/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/CMakeScratch/TryCompile-ZoYbrA']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/gadzz/miniforge3/envs/opencv/bin/c++   -v -o CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (conda-forge gcc 13.2.0-3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/']
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/cc1plus -quiet -v -iprefix /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/ -isysroot /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e05a4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYzXLGR.s]
+        ignore line: [GNU C++17 (conda-forge gcc 13.2.0-3) version 13.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/include-fixed]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/13.2.0/backward]
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 9e8d153b1db6fb7333af5312053e2531]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/']
+        ignore line: [ /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYzXLGR.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e05a4]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e05a4.dir/link.txt --verbose=1]
+        ignore line: [/home/gadzz/miniforge3/envs/opencv/bin/c++  -v -rdynamic CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e05a4 ]
+        ignore line: [Reading specs from /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/gadzz/miniforge3/envs/opencv/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751170916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/13.2.0 --with-pkgversion='conda-forge gcc 13.2.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.0 (conda-forge gcc 13.2.0-3) ]
+        ignore line: [COMPILER_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e05a4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e05a4.']
+        link line: [ /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2 -plugin /home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH7AAxw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e05a4 /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0 -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../.. -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o /home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/gadzz/miniforge3/envs/opencv/lib]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/gadzz/miniforge3/envs/opencv/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccH7AAxw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e05a4] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_e05a4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o]
+          arg [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/gadzz/miniforge3/envs/opencv/lib] ==> ignore
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o]
+        collapse obj [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc] ==> [/home/gadzz/miniforge3/envs/opencv/lib/gcc]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../lib] ==> [/home/gadzz/miniforge3/envs/opencv/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../lib/gcc/x86_64-conda-linux-gnu/13.2.0/../../..] ==> [/home/gadzz/miniforge3/envs/opencv/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/gadzz/miniforge3/envs/opencv/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtbeginS.o;/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0/crtendS.o;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/gadzz/miniforge3/envs/opencv/lib/gcc/x86_64-conda-linux-gnu/13.2.0;/home/gadzz/miniforge3/envs/opencv/lib/gcc;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/lib;/home/gadzz/miniforge3/envs/opencv/lib;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/lib;/home/gadzz/miniforge3/envs/opencv/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+...

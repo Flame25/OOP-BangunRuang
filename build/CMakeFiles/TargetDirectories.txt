@@ -1,0 +1,3 @@
+/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/Main.dir
+/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/edit_cache.dir
+/home/gadzz/Documents/Aksantara/Firmware/Tugas Week1/build/CMakeFiles/rebuild_cache.dir
